@@ -79,6 +79,7 @@ type_dict[np.float64] = "DOUBLE PRECISION"
 type_dict[np.str] = "TEXT"
 type_dict[np.string_] = "TEXT"
 type_dict[str] = "TEXT"
+type_dict[np.bool_] = "BOOLEAN"
 
 # Reverse type conversion dictionary
 
@@ -115,7 +116,7 @@ type_dict_rev['blob'] = np.str
 type_dict_rev['timestamp'] = np.str
 type_dict_rev['date'] = np.str
 type_dict_rev['var_string'] = np.str
-
+type_dict_rev['boolean'] = np.bool
 
 # Define symbol to use in insert statement
 
